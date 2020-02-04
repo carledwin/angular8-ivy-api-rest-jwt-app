@@ -1,0 +1,12 @@
+ng new angular-ivy-app --enable-ivy
+cd angular-ivy-app
+ng serve
+ng g component login
+ng g component user/list-user
+ng g component user/add-user
+ng g component user/edit-user
+ng g service service/user
+ng g class model/user --type=model
+ng g class model/api --type=response
+
+
